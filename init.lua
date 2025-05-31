@@ -1,5 +1,5 @@
-require 'options'
+require("options")
 
-require 'lazy-bootstrap'
+require("lazy-bootstrap")
 
-require 'lazy-plugins'
+require("lazy-plugins")

@@ -19,6 +19,12 @@ vim.o.relativenumber = true
 
 vim.o.confirm = true
 
+vim.o.expandtab = true
+vim.o.shiftwidth = 2
+vim.o.smartindent = true
+vim.o.tabstop = 2
+vim.o.softtabstop = 2
+
 vim.api.nvim_create_autocmd('TextYankPost', {
   desc = 'Highlight when yanking (copying) text',
   group = vim.api.nvim_create_augroup('kickstart-highlight-yank', { clear = true }),

@@ -3,6 +3,10 @@ require('lazy').setup({
   require 'plugins/indent_line',
   require 'plugins/autopairs',
   require 'plugins/todo-comments',
-  require 'plugins/gitsigns'
+  require 'plugins/gitsigns',
+  require 'plugins/tree-sitter',
+  require 'plugins/blink-cmp',
+  require 'plugins/mason',
+  require 'plugins/conform',
   }, {
 })
