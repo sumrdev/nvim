@@ -5,8 +5,6 @@ vim.schedule(function()
 	vim.o.clipboard = "unnamedplus"
 end)
 
-vim.cmd([[colorscheme everforest]])
-
 vim.o.breakindent = true
 
 vim.o.ignorecase = true

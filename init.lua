@@ -1,7 +1,11 @@
+require("options")
+
 require("lazy-bootstrap")
 
 require("lazy-plugins")
 
+require("lsp")
+
 require("keymaps")
 
-require("options")
+require("apply-theme")

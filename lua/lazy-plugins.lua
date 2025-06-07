@@ -6,8 +6,9 @@ require("lazy").setup({
 	require("plugins/gitsigns"),
 	require("plugins/tree-sitter"),
 	require("plugins/blink-cmp"),
-	require("plugins/mason"),
 	require("plugins/conform"),
 	require("plugins/oil"),
 	require("plugins/everforest"),
+	require("plugins/snacks"),
+	require("plugins/roslyn"),
 }, {})
