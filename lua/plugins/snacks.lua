@@ -6,4 +6,7 @@ return {
   opts = {
     dashboard = { enabled = true },
   },
+  keys = {
+    { "<leader>gg", function() Snacks.lazygit() end, desc = "Lazygit" },
+  }
 }
