@@ -23,6 +23,7 @@ vim.lsp.config('*', {
   on_attach = function(_, bufnr)
     local opts = { noremap = true, silent = true, buffer = bufnr }
     vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, opts)
+    vim.keymap.set('n', '<leader>ra', vim.lsp.buf.rename, opts)
     vim.keymap.set('n', '<leader>gi', vim.lsp.buf.implementation, opts)
     vim.keymap.set('n', '<leader>gr', vim.lsp.buf.references, opts)
     vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, opts)
